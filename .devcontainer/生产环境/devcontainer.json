@@ -1,0 +1,5 @@
+{
+  "name": "minimal-devcontainer",
+  "image": "ubuntu:22.04",
+  "postCreateCommand": "apt update && apt install -y build-essential cmake"
+}
